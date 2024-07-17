@@ -44,7 +44,7 @@ async function run() {
             res.send({ token });
         })
 
-
+ 
         // user related api
         // Registration API
         app.post('/users', async (req, res) => {
